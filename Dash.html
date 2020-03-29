@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<p<>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .Dashboard
+        {
+            font-size:xx-large;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font color: Orange;
+            
+            
+
+        }
+    </style>
+
+     
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="w3-panel-15  w3-padding-16  w3-orange ">
+    <div class="w3-container">
+      
+        <h2>Dashboard</h2>
+    
+                    <div class="w3-bar ">
+                        <div class="w3-dropdown-hover ">
+
+                        
+                        <button class="w3-button w3-black">Home</button> 
+                            <div class="w3-dropdown-content w3-bar-block w3-border w3-orange">
+                                    <a href="Details.html" class="w3-bar-item w3-button">Details</a>
+            
+                            </div>
+                    </div>
+        
+                    
+                    <div class="w3-dropdown-hover">
+
+                        <button class="w3-button w3-black">Units</button>
+                             <div class="w3-dropdown-content w3-bar-block w3-border w3-orange">
+                                        <a href="#" class="w3-bar-item w3-button">Images</a>
+                                        <a href="#" class="w3-bar-item w3-button">Units Left</a>
+                                        <a href="#" class="w3-bar-item w3-button">Units Sold</a>
+                            </div>
+            
+                     </div>
+        
+        
+                     <div class="w3-dropdown-hover">
+        
+                        <button class="w3-button w3-black">Tenants</button> 
+                                <div class="w3-dropdown-content w3-bar-block w3-border w3-orange">
+                                        <a href="#" class="w3-bar-item w3-button">Information</a>
+                                        <a href="#" class="w3-bar-item w3-button">Info about units</a>
+                                        <a href="#" class="w3-bar-item w3-button">Personal Details</a>
+                                    </div>
+            
+
+
+            
+                     </div>
+       
+       
+                     <div class="w3-dropdown-hover">
+                            <button class="w3-button w3-black">Payments</button> 
+                                    <div class="w3-dropdown-content w3-bar-block w3-border w3-orange">
+                                         <a href="#" class="w3-bar-item w3-button">Paytm</a>
+                                        <a href="#" class="w3-bar-item w3-button">G-pay</a>
+                                        <a href="#" class="w3-bar-item w3-button">Net-banking</a>
+                                    </div>
+
+
+
+                        </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    
+
+<br>
+<p class="Dashboard">
+    
+    <div class="w3-padding w3-orange">
+        <div class="w3-hover-white">
+    Our main aim is to find the rents for the needed customer and after wards he or she according to his need can get it <br>
+    what to do and not.The dashboard suggest complete Information about the user and other stuff.
+    
+    </div>
+    </div>
+    
+</p>
+
+
+<br>
+
+
+<div class="w3-sidebar w3-bar-block w3-card  w3-teal w3-animate-left" style="display:none" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large"
+    onclick="w3_close()">Menu &times;</button>
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </div>
+  
+  <div id="main">
+  
+  <div class="w3-teal">
+    <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+    <div class="w3-container">
+      <h1>More Info</h1>
+    </div>
+  </div>
+  
+
+
+
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+<br>
+<br>
+
+
+
+<a href="Login.html">click here for back</a>
+
+</body>
+</html>
